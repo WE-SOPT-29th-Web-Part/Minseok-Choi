@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
  margin: 0 auto;
- min-width: 1056px;
+	max-width: 1756px;
  padding: 0 5%;
  display: flex;
  flex-direction: column;
