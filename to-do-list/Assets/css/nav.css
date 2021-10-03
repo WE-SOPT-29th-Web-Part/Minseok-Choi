@@ -1,0 +1,13 @@
+.nav {
+ height: 45px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+
+.nav__button {
+ border: 0;
+ padding: 2px 8px;
+ background-color: lightcoral;
+}
