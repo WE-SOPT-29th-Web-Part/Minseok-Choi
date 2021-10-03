@@ -1,0 +1,43 @@
+.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 64px; 
+}
+
+.header__logo{
+ height: 24px;
+}
+
+.header__service{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+}
+
+.header__service__search-btn{
+ width: 18px;
+ margin-right: 20px;
+}
+
+.header__service__login-btn{
+ background-color: #343a40;
+ color: white;
+
+ border-radius: 20px;
+ padding: 1px 16px;
+ font-weight: bold;
+ font-size: 16px;
+ border: none;
+ outline: none;
+
+ line-height: 32px;
+ cursor: pointer;
+ word-break: keep-all;
+}
+
+.header__service__login-btn:hover{
+ background-color: #868E96;
+ transition: .3s;
+}
