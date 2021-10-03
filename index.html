@@ -7,13 +7,14 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="./Assets/css/reset.css">
  <link rel="stylesheet" href="./Assets/css/header.css">
+ <link rel="stylesheet" href="./Assets/css/nav.css">
  <title>velog</title>
 </head>
 <body>
   <header class='header'>
-    <h2 class="header__logo">
+    <h1 class="header__logo">
      <img src="./Static/velog-logo.svg" alt="로고" />
-    </h2>
+    </h1>
     <ul class="header__service">
      <li class="header__service__item">
       <a href="#">
@@ -27,6 +28,53 @@
      </li>
     </ul>
   </header>
-  <main class='main'></main>
+  <nav class="nav">
+   <div class="nav__left">
+    <a href="#">
+     <div class="nav__link-btn active">
+      <img class="nav__link-btn__icon" src="./Static/trending.svg" alt="트렌딩" />
+      트렌딩
+     </div>
+    </a>
+    <a href="#">
+     <div class="nav__link-btn">
+      <img class="nav__link-btn__icon" src="./Static/clock.svg" alt="최신" />
+      최신
+     </div>
+    </a>
+    <div class="nav__dropdown-menu">
+     이번 주
+     <img class="dropdown-icon" src="./Static/arrow-dropdown.svg" alt="밑 화살표">
+    </div>
+   </div>
+   <div class="nav__right">
+     <img class="nav__more-menu" src="./Static/more-menu.svg" alt="더 보기 메뉴">
+   </div>
+  </nav>
+  <main class='main'>
+    <div class='main__card-container'>
+     <div class="card">
+      <img class="card__thumbnail" src="./Static/cat.jpeg" alt="썸네일">
+      <div class="card__description">
+       <h2 class="title">밈미라고 합니다~~!</h2>
+       <p class="content">밈미는 정말 귀여운 고양이에요! 밈미는 정말 귀여운 고양이에요! 밈미는 정말 귀여운 고양이에요! 밈미는 정말 귀여운 고양이에요!</p>
+       <div class="card__sub-content">
+        <span class='date'>2021년 9월 22일</span>
+        <span class="comment-count">27개의 댓글</span>
+       </div>
+      </div>
+      <div class="card__footer">
+       <div class="card__left"></div>
+       <div class="card__right"></div>
+      </div>
+     </div>
+     <div class="card">
+      
+     </div>
+     <div class="card">
+      
+     </div>
+    </div>
+  </main>
 </body>
 </html>
